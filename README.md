@@ -1,5 +1,5 @@
 <h1 align="center">
-  <br>hide-user-emails
+  <br>hideuseremails
 </h1>
 <h3 align="center">
   A Nextcloud app that hides user emails in the interface. NOTE: This app does not actually remove emails from any indexing, it just hides them in the interface so they are non-obvious. They can still be found on calendar event invitations and in the page source.
@@ -13,7 +13,7 @@ The goal is to make user emails less *obvious*, so that to find them one must ac
 
 # Contributors
 
-This is a direct fork of the [Nextcloud Unrounded Corners](https://github.com/OliverParoczai/nextcloud-unroundedcorners) app. I have simply changed the particular CSS Used.
+This is a direct fork of the [Nextcloud Unrounded Corners](https://github.com/OliverParoczai/nextcloud-unroundedcorners) app. I have simply changed the particular CSS used.
 
 - [@simo-bimo](https://github.com/simo-bimo/)
 - [@OliverParoczai](https://github.com/OliverParoczai) (from unrounded corners).
