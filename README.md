@@ -1,30 +1,27 @@
 <h1 align="center">
-  <br>
-  <a href="https://github.com/OliverParoczai/nextcloud-unroundedcorners"><img src="https://raw.githubusercontent.com/OliverParoczai/nextcloud-unroundedcorners/master/differences.png" alt="nextcloud-unroundedcorners logo" width="200"></a>
-  <br>nextcloud-unroundedcorners
+  <br>hide-user-emails
 </h1>
 <h3 align="center">
-  A Nextcloud app that restores the corners of buttons and widgets to their original looks by unrounding them.
+  A Nextcloud app that hides user emails in the interface. NOTE: This app does not actually remove emails from any indexing, it just hides them in the interface so they are non-obvious. They can still be found on calendar event invitations and in the page source.
 </h3>
 
 # Introduction
 
-I made this application as I didn't like how the new Nextcloud design looked. I started using the Custom CSS app to change it but after a few more modifications and asks from friends I felt the need to make it into an application for it to be easy to update, and for others to find it easier.
+This app sets the CSS of every div / span used to display emails as `visibility: hidden;`. This means emails are not shown in the interface, but can be quickly deduced by inspecting page source, or looking at calendar invitations etc.
 
-# Technology
-
-It is a simple app that only does one thing: it injects the bundled-in CSS code into Nextcloud, and the CSS is what matters.
-
-For the CSS we used variables that automatically changed all "pill"-style buttons "border-radius" value to a less rounded one, and some code to fix the ones that became broken in the process.
+The goal is to make user emails less *obvious*, so that to find them one must actively seek them out. This means a person should not, through regular usage of the service, discover emails by accident. This should be acceptable for small groups where it is generally known that private emails shouldn't be sought out.
 
 # Contributors
 
-- [@OliverParoczai](https://github.com/OliverParoczai)
-- [@karlprieb](https://github.com/karlprieb)
+This is a direct fork of the [Nextcloud Unrounded Corners](https://github.com/OliverParoczai/nextcloud-unroundedcorners) app. I have simply changed the particular CSS Used.
 
-# Usage with Custom CSS
+- [@simo-bimo](https://github.com/simo-bimo/)
+- [@OliverParoczai](https://github.com/OliverParoczai) (from unrounded corners).
+- [@karlprieb](https://github.com/karlprieb) (from unrounded corners).
 
-To be updated at a later time
+# Issues
+
+If you notice a spot or app where an email can be seen (i.e. by searching for somebody to share with), please let me know and I will attempt to hide it there as well.
 
 # Packaging using the buildscript
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OCA\UnroundedCorners\AppInfo;
+namespace OCA\HideUserEmails\AppInfo;
 
 use OCP\AppFramework\App;
 use OCP\AppFramework\Bootstrap\IBootContext;
@@ -13,7 +13,7 @@ use OCP\Util;
 class Application extends App implements IBootstrap {
 
     /** @var string */
-    public const APP_NAME = 'unroundedcorners';
+    public const APP_NAME = 'hide-user-emails';
 
     /** @var string */
     protected $appName;
@@ -27,6 +27,6 @@ class Application extends App implements IBootstrap {
 	}
 
     public function boot(IBootContext $context): void {
-        Util::addStyle($this->appName, 'unround');
+        Util::addStyle($this->appName, 'hide-emails');
 	}
 }

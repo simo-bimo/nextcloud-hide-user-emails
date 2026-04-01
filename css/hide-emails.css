@@ -1,0 +1,23 @@
+.envelope__subtitle__subject { /* Contacts List */
+  visibility: hidden !important;
+}
+
+.list-item-content__subname { /* Unified Search Results */
+  visibility: hidden !important;
+}
+
+span.option__linetwo { /* In File sharing menu */ 
+  visibility: hidden !important;
+}
+
+span.selectable-participant__content-subname { /* Talk add participant. */
+  visibility: hidden !important;
+}
+
+div.share-item__label > p { /* Active share participants and search results in calendar. */
+  visibility: hidden !important;
+}
+
+div.property-email { /* Email field in contacts menu */
+  visibility: hidden !important;
+}
