@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
-    <id>hide-user-emails</id>
+    <id>hideruseremails</id>
     <name>Hide User Emails</name>
     <summary>An extension for hiding user emails in the UI.</summary>
     <description><![CDATA[

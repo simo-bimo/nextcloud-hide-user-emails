@@ -13,7 +13,7 @@ use OCP\Util;
 class Application extends App implements IBootstrap {
 
     /** @var string */
-    public const APP_NAME = 'hide-user-emails';
+    public const APP_NAME = 'hideuseremails';
 
     /** @var string */
     protected $appName;
