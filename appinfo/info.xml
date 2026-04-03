@@ -10,7 +10,7 @@ A nextcloud app that hides user emails from appearing in the interface. They are
     ]]></description>
     <version>0.1.0</version>
     <licence>agpl</licence>
-    <author mail="" homepage="">Simon Dowd</author>
+    <author mail="simon@anldowd.com" homepage="">Simon Dowd</author>
     <namespace>HideUserEmails</namespace>
     <category>customization</category>
     <website>https://github.com/simo-bimo/nextcloud-hide-user-emails</website>
