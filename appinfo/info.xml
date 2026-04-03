@@ -15,7 +15,7 @@ A nextcloud app that hides user emails from appearing in the interface. They are
     <category>customization</category>
     <website>https://github.com/simo-bimo/nextcloud-hide-user-emails</website>
     <bugs>https://github.com/simo-bimo/nextcloud-hide-user-emails/issues</bugs>
-    <screenshot></screenshot>
+    <!-- <screenshot></screenshot> -->
     <dependencies>
         <nextcloud min-version="30" max-version="41"/>
     </dependencies>
