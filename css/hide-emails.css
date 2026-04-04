@@ -21,3 +21,7 @@ div.share-item__label > p { /* Active share participants and search results in c
 div.property-email { /* Email field in contacts menu */
   visibility: hidden !important;
 }
+
+div.invitees-search-list-item__label > div:last-child { /* Email field in invitees list of calendar. */
+  visibility: hidden !important;
+}

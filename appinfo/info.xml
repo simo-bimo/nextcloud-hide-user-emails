@@ -8,7 +8,7 @@
 # Hide User Emails
 A nextcloud app that hides user emails from appearing in the interface. They are hidden in share search results, talk user lists and the contacts app. This does not make it impossible to deduce email addresses - they are still loaded by the backend, it simply hides them in the interface so they are not immediately obvious.
     ]]></description>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <licence>agpl</licence>
     <author mail="simon@anldowd.com" homepage="https://github.com/simo-bimo">Simon Dowd</author>
     <namespace>HideUserEmails</namespace>
